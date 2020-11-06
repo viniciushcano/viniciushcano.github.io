@@ -3,14 +3,20 @@
     justify-content: space-between;/*alinhando horizontalmente*/
     align-items: center;/*alinhando verticalmente*/
     background: #000000;/*definindo a cor de fundo*/
-    padding: 0,3% 0;/*adicionando o padding de 0.5% para cima/baixo*/
+    padding: 0,3% 0;/*adicionando o padding de 0.3% para cima/baixo*/
     position: fixed;/*definindo a posição do elemento como fixa*/
     width: 100%;/*definindo a largura do elemento para 100% da tela*/
     bottom: 0;/*posicionando o elemento no final da página*/
+    height: 63px;
+}
+.container{
+    height: 100px;
+    width: 80%;
+    margin: auto
 }
 .footer-text{
     font-size: 20px;/*definindo o tamanho da fonte para 25px*/
-    letter-spacing: 5px;/*adicionando 5px de espaçamento entre as letras*/
+    letter-spacing: 3px;/*adicionando 5px de espaçamento entre as letras*/
     color: red;/*definindo a cor da fonte como branco*/
     padding-left: 10%;/*adicionando 10% de padding para a esquerda*/
 }
@@ -22,3 +28,35 @@
     width: 45px;/*definindo largura de 50px*/
     margin-left: 20px;/*adicionando margem de 10px para a esquerda*/
 }
+.news{
+    padding: 30px 0;
+    height: 52px;
+}
+.news h4 {
+    color: whitesmoke; /*cor da letra do h2*/
+    margin: 0; /*margem fica com 0*/
+    float: left; /*deixa o h2 para esquerda*/
+    font-weight: 500; /*ajusta tamanho da fonte*/
+    margin-top: -2px;
+    margin-bottom: 4px;
+
+}
+.news form {
+    float: left;
+}
+.news input {
+    height: 30px;/*ajusta a altura do input*/
+    width: 250px; /*ajsuta a largura do input*/
+    border-radius: 15px;
+    padding-left: 0.5rem;
+
+}
+.news button{
+    padding: 7px 20px; /*ajusta tanto para cime/baixo quanto esquerda/direita*/
+    background-color: red; /*muda a cor de fundo do botão*/
+    color: whitesmoke;
+    font-weight: 800; /*tamanho da fonte da letra dentro do botão*/
+    border: 0; /*tira a borda do botão*/
+    line-height: 18px;
+    border-radius: 15px;
+}    /*fim das novidades*/

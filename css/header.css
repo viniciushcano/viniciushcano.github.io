@@ -5,16 +5,12 @@
     font-family: 'Rajdhani', sans-serif;/*definindo a fonte*/
     text-decoration: none;/*removendo o underline*/
 }
-.body{
-    height: 100vh;/*definindo o tamando do body para 100% do tamanho DA TELA*/
-    background: url('//imgs/campo.futebol.2.jpg') no-repeat;/*adcionando imagem de fundo (no-repeat para que a imagem não repita)*/
-    background-size: cover; /*definindo que o tamanho da imagem vai cobrir toda a tela*/
-}
+
 /* inicio header */
 .header{ 
     display: flex; /*definindo o display como flex*/
     align-items: center;/*alinhando verticalmente*/
-    justify-content: space-between;/*alinhando horizontalmente*/
+    justify-content: space-between;/*máximo espaço entre os elementos*/
     height: 10vh; /*definindo o tamanho do header para 10% do tamanho da tela*/
     position: fixed;/*definindo a posição do elemento como fixa*/
     width: 100%;/*definindo a largura do elemento como 100%*/
@@ -27,20 +23,14 @@
     padding-left: 25px;/*adicionando padding esquerdo de 25px*/
 }
 .header-box-img{
-    height: 10vh;/*definindo a altura como 10vh*/
+    height: 10vh;/*definindo a altura da imagem em 10vh*/
 }
 .header-box-title{
     font-size: 35px;
     color: red;
     align-content: center;
+}
 
-}
-.header-box-title{
-    font-size: 35px;/*definindo o tamanho da fonte para 35px*/
-    text-transform: uppercase;/*definindo a fonte como maiúscula*/
-    font-weight: 100;/*definindo o peso da fonte como 100*/
-    letter-spacing: 2px;/*adicionando 3px de espaço entre as letras*/
-}
 .header-ul{
     display: flex;/*definindo o display como flex*/
     padding-right: 25px; /*adicionando 20px de padding para a direita*/
@@ -76,5 +66,5 @@
     background: red;
 }
 ::-webkit-scrollbar-track{
-    background: red;
+    background: black;
 }
