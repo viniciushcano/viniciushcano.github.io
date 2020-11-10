@@ -11,7 +11,7 @@
     display: flex; /*definindo o display como flex*/
     align-items: center;/*alinhando verticalmente*/
     justify-content: space-between;/*máximo espaço entre os elementos*/
-    height: 10vh; /*definindo o tamanho do header para 10% do tamanho da tela*/
+    height: 8vh; /*definindo o tamanho do header para 10% do tamanho da tela*/
     position: fixed;/*definindo a posição do elemento como fixa*/
     width: 100%;/*definindo a largura do elemento como 100%*/
     background: black;/*definindo a cor de fundo*/
@@ -23,7 +23,7 @@
     padding-left: 25px;/*adicionando padding esquerdo de 25px*/
 }
 .header-box-img{
-    height: 10vh;/*definindo a altura da imagem em 10vh*/
+    height: 8vh;/*definindo a altura da imagem em 10vh*/
 }
 .header-box-title{
     font-size: 35px;
@@ -48,7 +48,7 @@
     font-weight: bold;/*colocando a fonte em negrito*/
 }
 .header-ul-li-a{
-    cursor: pointer; /*definindo o ponteiro do mouse com uma "mãozinha"*/
+    cursor: pointer; /*definindo o ponteiro do mouse com a "mãozinha"*/
     list-style-type: none; /*removendo as "bolinhas" da li*/
     margin: 0 10px;/*adicionando margin de 10px para esquerda e direita*/
     color: whitesmoke;/*definindo a cor do texto como branco*/

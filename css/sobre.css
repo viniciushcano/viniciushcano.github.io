@@ -1,0 +1,58 @@
+.escudo{
+    background: brown;/*definindo a cor de fundo do elemento*/
+    display: flex;/*definindo o display como flex*/
+    justify-content: space-between;/*alinhando horizontalmente*/
+    align-items: center;/*alinhando verticalmente*/
+    height: 60vh;/*definindo 90vh de altura para o elemento*/
+    padding: 0 10%;/*adicionando padding de 10% para esquerda/direita*/
+}
+.estadio{
+    background:black;/*definindo a cor de fundo do elemento*/
+    display: flex;/*definindo o display como flex*/
+    justify-content: space-between;/*alinhando horizontalmente*/
+    align-items: center;/*alinhando verticalmente*/
+    height: 60vh;/*definindo 90vh de altura para o elemento*/
+    padding: 0 10%;/*adicionando padding de 10% para esquerda/direita*/
+}
+.camisa{
+    background:white;/*definindo a cor de fundo do elemento*/
+    display: flex;/*definindo o display como flex*/
+    justify-content: space-between;/*alinhando horizontalmente*/
+    align-items: center;/*alinhando verticalmente*/
+    height: 60vh;/*definindo 90vh de altura para o elemento*/
+    padding: 0 10%;/*adicionando padding de 10% para esquerda/direita*/
+}
+.escudo-box, .estadio-box, .camisa-box{
+    display: flex;/*definindo o display como flex*/
+    flex-direction: column;/*definindo a direção do flex*/
+    align-items: center;/*alinhando horizontalmente*/
+}
+.escudo-box-text, .estadio-box-text{
+color: white;/*definindo a cor da fonte*/
+letter-spacing: 1vh;/*adicionando 3px de espaço entre as letras*/
+font-size: 3vh;/*definindo 30px de tamanho da fonte*/
+}
+.camisa-box-text{
+    color: black;/*definindo a cor da fonte*/
+    letter-spacing: 1vh;/*adicionando 3px de espaço entre as letras*/
+    font-size: 3vh;/*definindo 30px de tamanho da fonte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.escudo-img{
+    width: 400px;/*definindo 400px de largura*/
+    margin-left: 100px;/*adicionando 100px de margem para a esquerda*/
+    border-radius: 20px;/*arredondando a borda*/
+    
+}
+.estadio-img{
+    width: 400px;/*definindo 400px de largura*/
+    margin-left: 100px;/*adicionando 100px de margem para a esquerda*/
+    border-radius: 20px;/*arredondando a borda*/
+    height: 45vh; /*definida a altura das imagens*/
+}
+.camisa-img{
+    width: 400px;/*definindo 400px de largura*/
+    margin-left: 100px;/*adicionando 100px de margem para a esquerda*/
+    border-radius: 20px;/*arredondando a borda*/
+ 
+}

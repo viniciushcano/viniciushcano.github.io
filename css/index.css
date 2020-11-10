@@ -1,6 +1,6 @@
 .banner{
 height: 400px;
-background: url(../imgs/campo.futebol.jpg);
+background: url(/imgs/hd-morumbi2.png);
 background-size: cover;
 text-align: center;
 overflow-y: auto;
@@ -15,12 +15,12 @@ overflow-x: auto;
     padding-top: 150px; /*corrigido*/
     margin: 0;
     font-size: 48px;
-    color: red;
+    color: whitesmoke;
 }
 
 .banner p {
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
     font-size: 18px;
     padding-top: 50px;
 }
@@ -34,5 +34,5 @@ overflow-x: auto;
     width: 33%;  /*ajusta o tamanho do box*/
     float: left; /* ajusta um do lado do outro */
     text-align: center;/*alinhar o texto*/
-    margin-top: 50px; /*descer um pouco as boxs*/
+    margin-top: 3vh; /*descer um pouco as boxs*/
 }

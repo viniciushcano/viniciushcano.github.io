@@ -7,12 +7,12 @@
     position: fixed;/*definindo a posição do elemento como fixa*/
     width: 100%;/*definindo a largura do elemento para 100% da tela*/
     bottom: 0;/*posicionando o elemento no final da página*/
-    height: 63px;
+    height: 10vh; /*adiciona altura ao*/
 }
 .container{
     height: 100px;
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 .footer-text{
     font-size: 20px;/*definindo o tamanho da fonte para 25px*/
@@ -25,8 +25,8 @@
     padding-right: 10%;/*adicionando padding de 10% para a direita*/
 }
 .footer-box-img{
-    width: 45px;/*definindo largura de 50px*/
-    margin-left: 20px;/*adicionando margem de 10px para a esquerda*/
+    width: 6vh;/*definindo largura de 50px*/
+    margin-left: 2vh;/*adicionando margem de 10px para a esquerda*/
 }
 .news{
     padding: 30px 0;
@@ -57,6 +57,6 @@
     color: whitesmoke;
     font-weight: 800; /*tamanho da fonte da letra dentro do botão*/
     border: 0; /*tira a borda do botão*/
-    line-height: 18px;
+    line-height: 2vh;
     border-radius: 15px;
 }    /*fim das novidades*/

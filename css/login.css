@@ -1,25 +1,17 @@
 .main{
     display: flex;/*define o display como flex*/
     align-items: center;/*alinha na horizontal */
-    height: 72vh;/*define altura de background na tela*/
+    height: 65vh;/*define altura de background na tela*/
     justify-content: center;/*alinha na vertical */
-    background: gray;/*define a cor de fundo*/
+    background: black;/*define a cor de fundo*/
     width: 60vh;/*define a largura do background*/
-    margin: 0 auto;/*adiciona margem automática para direita/esquerda*/
+    margin: 11vh auto;/*adiciona margem automática para direita/esquerda*/
     border-radius: 100px;/*arredonda as bordas*/
 }
 .main-box{
     padding: 50px;/*adicionando preenchimento para todos os lados*/
     border-radius: 30px;/*arredondando a borda*/
-}
-.main-title{
-    color: red;/*define a cor do texto*/
-    letter-spacing: 5px;/*adiciona espaço entre as letras */
-    transition: 0.5s;/*define a transição do elemento para 0.5segundos*/
-    cursor: default;/*define o cursor como padrão*/
-    text-align: center;/*alinha o texto no centro*/
-    padding-top: 10vh;/*adiciona preenchimento para baixo*/
-    font-size: 60px;/*define o tamanho da fonte*/
+
 }
 .main-box-title{
     text-align: center;/*alinhando o texto no centro */
@@ -35,21 +27,21 @@
     align-items: center;/*alinhando horizontalmente */
 }
 .main-box-login-input, .main-box-cad-input{
-    margin: 15px 0; /*adicionando 15px de margem para cima/baixo */
-    padding: 5px 5px;/*adiciona 5px de padding para cima/baixo e esquerda/direita no input */
+    margin: 1vh 0; /*adicionando 15px de margem para cima/baixo */
+    padding: 1vh 2vh;/*adiciona 5px de padding para cima/baixo e esquerda/direita no input */
     border-radius: 15px;/*bordas redondas */
     outline: none; /*zerando as bordas */
     border: 3px solid red;/*tamanho  e cor das bordas dos inputs */
-    width: 200px;/*define o tamanho dos input */
+    width: 180px;/*define o tamanho dos inputs */
 }
 .main-box-login-button, .main-box-cad-button{
-    margin-top: 9px;/*adicionando 20px de margem para cima */
+    margin-top: 2vh;/*adicionando margem para cima */
     border-radius: 20px;/*arredondando a borda */
-    color: white;/*definindo a cor do elemento para branco */
-    background: red;/*definindo a cor de fundo do elemento */
-    border: 3px solid whitesmoke;/*criando uma borda de 2px para todos os lados */
-    width: 100%;/*definindo a largura do elemento com 100% do pai*/
-    padding: 7px;/*adicionando padding de 5px para cima/baixo*/
+    color: white;/*definindo a cor do texto do botão */
+    background: red;/*definindo a cor de fundo do botão */
+    border: 3px solid whitesmoke;/*criando borda no botão para todos os lados */
+    width: 100%;/*definindo o comprimento do botão*/
+    padding: 7px;/*definindo a largura do botão*/
     font-size: 15px; /*definindo o tamanho da fonte*/
     text-transform: uppercase;/*definindo a fonte como maiúscula*/
     letter-spacing: 3px;/*adicionando espaçamento entre as letras*/
@@ -63,8 +55,12 @@
     background:black;/*definindo uma cor de fundo*/
 }
 .span-button{
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
+    color: whitesmoke; /*definido a cor do texto*/
+    font-size: 2vh; /* definido tamanha da fonte do texto*/
+    font-weight: bold;/*definidno a espessura da fonte*/
+    cursor: pointer; /*definido o cursor como 'mãozinha'*/
+}
+.body{
+    background-image: url(/imgs/corredor.jpg);
+    background-repeat: no-repeat;
 }
