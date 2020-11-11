@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Futebol Tricolor</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="login.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="script.js"></script>
+    <script src="validar.js"></script>
 
 </head>
 
@@ -34,31 +35,35 @@
             <h2 class="main-box-title">Login</h2>
             <div class="main-box-login">
                 <input class="main-box-login-input" placeholder="Digite seu e-mail" type="email" name="email"
-                    id="inputEmail">
+                    id="inputEmailLogin">
                 <input class="main-box-login-input" placeholder="Digite sua senha" type="password" name="senha"
-                    id="inputSenha">
+                    id="inputSenhal=Login">
                 <a href=""><button class="main-box-login-button">Entrar</button></a><br>
-               <span class="span-button" onclick="displayCadastro()">Criar conta</span>
+                <span class="span-button" onclick="displayCadastro()">Criar conta</span>
             </div>
         </div>
         <div id="cadastro" class="main-box" style="display: none;">
             <h3 class="main-box-title">Cadastro</h3>
             <div class="main-box-cad">
-                <input class="main-box-cad-input" placeholder="Digite o seu nome" type="text" name="nome"
-                    id="inputNome">
-                <input class="main-box-cad-input" placeholder="Digite o seu CPF" type="text" name="cpf" id="inputCpf">
-                <input class="main-box-cad-input" placeholder="Digite o seu bairro" type="text" name="bairro" id="inputBairro">
-                <input class="main-box-cad-input" placeholder="Digite a sua cidade" type="text" name="cidade" id="inputCidade">
-                <input class="main-box-cad-input" placeholder="Digite o seu e-mail" type="email" name="email"
-                    id="inputEmail">
-                <input class="main-box-cad-input" placeholder="Digite a sua senha" type="password" name="senha"
-                    id="inputSenha">
-                <input class="main-box-cad-input" placeholder="Confirme a sua senha" type="password" name="conf.senha"
-                    id="inputSenhaConf">
-                <button class="main-box-cad-button" onclick="displayLogin()">Cadastrar</button>
+                    <input class="main-box-cad-input" placeholder="Digite o seu nome" type="text" name="nome"
+                        id="inputNome">
+                    <input class="main-box-cad-input" placeholder="Digite o seu CPF" type="text" name="cpf" id="inputCpf" onfocusout='isValidCPF()'>
+                    <span id="erroCPF" style="display: none; color:red"></span>
+                    <input class="main-box-cad-input" placeholder="Digite o seu bairro" type="text" name="bairro"
+                        id="inputBairro">
+                    <input class="main-box-cad-input" placeholder="Digite a sua cidade" type="text" name="cidade"
+                        id="inputCidade">
+                    <input class="main-box-cad-input" placeholder="Digite o seu e-mail" type="email" name="email"
+                        id="inputEmail" onfocusout='isValidEmail()'>
+                    <span id="erroEmail" style="display: none; color:red"></span> 
+                    <input class="main-box-cad-input" placeholder="Digite a sua senha" type="password" name="senha"
+                        id="inputSenha">
+                    <input class="main-box-cad-input" placeholder="Confirme a sua senha" type="password" name="conf.senha"
+                        id="inputSenhaConf">
+                    <button class="main-box-cad-button" onclick="displayLogin()">Cadastrar</button>
             </div>
         </div>
-    
+<!-- class=main-box-cad-input -->
     </main>
     <footer class="footer">
         <div class="news">
@@ -66,7 +71,7 @@
                 <h4>Receba nossas atualizações</h4>
                 <form>
                     <input type="email" placeholder="Digite seu email">
-                    <button type="submit">
+                    <button type="submit" onclick="notify()">
                         Enviar
                     </button>
                 </form>

@@ -6,4 +6,6 @@ function displayLogin(){
     document.getElementById('cadastro').style.display ='none';
     document.getElementById('login').style.display = 'block';
 }
-
+function notify(){
+    alert ('Email enviado com sucesso');
+}

@@ -1,12 +1,12 @@
 .main{
     display: flex;/*define o display como flex*/
     align-items: center;/*alinha na horizontal */
-    height: 65vh;/*define altura de background na tela*/
+    height: 60vh;/*define altura de background na tela*/
     justify-content: center;/*alinha na vertical */
-    background: black;/*define a cor de fundo*/
-    width: 60vh;/*define a largura do background*/
-    margin: 11vh auto;/*adiciona margem automática para direita/esquerda*/
-    border-radius: 100px;/*arredonda as bordas*/
+    background: #000000a1;/*define a cor de fundo*/
+    width: 40vh;/*define a largura do background*/
+    margin: 14vh auto;/*adiciona margem automática para direita/esquerda*/
+    border-radius: 6vh;/*arredonda as bordas*/
 }
 .main-box{
     padding: 50px;/*adicionando preenchimento para todos os lados*/
@@ -29,10 +29,10 @@
 .main-box-login-input, .main-box-cad-input{
     margin: 1vh 0; /*adicionando 15px de margem para cima/baixo */
     padding: 1vh 2vh;/*adiciona 5px de padding para cima/baixo e esquerda/direita no input */
-    border-radius: 15px;/*bordas redondas */
+    border-radius: 3vh;/*bordas redondas */
     outline: none; /*zerando as bordas */
     border: 3px solid red;/*tamanho  e cor das bordas dos inputs */
-    width: 180px;/*define o tamanho dos inputs */
+    width: 20vh;/*define o tamanho dos inputs */
 }
 .main-box-login-button, .main-box-cad-button{
     margin-top: 2vh;/*adicionando margem para cima */
@@ -62,5 +62,6 @@
 }
 .body{
     background-image: url(/imgs/corredor.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*não repetir a imagem de fundo*/
+    background-size: cover; /*cobrir toda a pagina com ou sem zoom*/
 }
